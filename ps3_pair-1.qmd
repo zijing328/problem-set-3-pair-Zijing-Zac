@@ -1,6 +1,6 @@
 ---
 title: "30538 Problem Set 3: git pair"
-author: "Dema Therese"
+author: "Zac Shen"
 format: 
   pdf:
     keep-tex: true
