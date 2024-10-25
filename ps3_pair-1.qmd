@@ -1,6 +1,6 @@
 ---
 title: "30538 Problem Set 3: git pair"
-author: "Zijing Zhao"
+author: "Zac Shen, Zijing Zhao"
 format: 
   pdf:
     keep-tex: true
@@ -28,14 +28,16 @@ data = pd.DataFrame(np.random.rand(100), columns=['Random Numbers'])
 
 def preview_data(df):
     head = df.head()
+    description = df.describe()
     chart = alt.Chart(df).mark_bar().encode(
       alt.X('Random Numbers', bin=True),
       y='count()'
     )
     print(df.head())
-    return [head, chart]
+    return [head, description, chart]
 
 result = preview_data(data)
-result[1].display()
+result[2].display()
+
 
 ```
