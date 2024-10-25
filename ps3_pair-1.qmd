@@ -1,6 +1,6 @@
 ---
 title: "30538 Problem Set 3: git pair"
-author: "Zac Shen"
+author: "Zac Shen, Zijing Zhao"
 format: 
   pdf:
     keep-tex: true
